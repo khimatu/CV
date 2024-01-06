@@ -247,7 +247,7 @@ margin-left: 50px;
         grid-template-columns: repeat(1,1fr);
     }
   .Hobbies ul{
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(1,1fr);
   }
     
 }
@@ -278,5 +278,8 @@ margin-left: 50px;
     .ContactInfo ul li span{
         font-size: 11px;
     }
+    .Hobbies ul{
+        grid-template-columns: repeat(1,1fr);
+      }
 
 }
