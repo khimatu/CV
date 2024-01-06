@@ -261,6 +261,7 @@ margin-left: 50px;
     }
     .Hobbies ul{
         grid-template-columns: repeat(1,1fr);
+        margin-left: 8px;
     }
     .about .text3 h4{
         margin: 0;
