@@ -280,6 +280,7 @@ margin-left: 50px;
     }
     .Hobbies ul{
         grid-template-columns: repeat(1,1fr);
+        margin-left: 8px;
       }
 
 }
