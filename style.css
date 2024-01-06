@@ -95,12 +95,13 @@ body {
 .ContactInfo ul li .icon{
     display: inline-block;
     width: 30px;
-    font-size: 18px;
+    font-size: 15px;
     color: #03a9f4;
 }
 .ContactInfo ul li span{
     color: #fff;
     font-weight: 300;
+  
 
 }
 .contactInfo.education li{
@@ -272,4 +273,10 @@ margin-left: 50px;
     .skills .box{
         grid-template-columns: repeat(1,1fr);
     }
+}
+@media(max-width:300px){
+    .ContactInfo ul li span{
+        font-size: 11px;
+    }
+
 }
